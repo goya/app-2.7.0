@@ -8,7 +8,7 @@
 	<access origin="*" />
 	
 	<plugin spec="https://github.com/goya/plugin-hook-tester.git" />
-	
+	<plugin name="cordova-plugin-nativegeocoder" spec="2.0.4" />
 	<hook type="before_platform_add"      src="hooks/hook.js"/>
     <hook type="after_platform_add"       src="hooks/hook.js"/>
     <hook type="before_platform_rm"       src="hooks/hook.js"/> 
